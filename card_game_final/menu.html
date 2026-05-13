@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            margin: 20px 0;
+            text-align: left;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Memory Card Game</h1>
+        
+        <div class="section">
+            <h2>Objective</h2>
+            <p>The goal of this game is to test your memory by remembering which card has which number. You must select the numbers in order. If you pick the wrong one, all flipped cards will be reset!</p>
+        </div>
+
+        <div class="section">
+            <h2>Levels</h2>
+            <ul>
+                <li><strong>Level 1:</strong> Numbers from 1 to 10</li>
+                <li><strong>Level 2:</strong> Numbers from 1 to 15</li>
+                <li><strong>Level 3:</strong> Numbers from 1 to 20</li>
+                <li><strong>Hardest Level/ level4:</strong> Uses numbers from 1 to 16 in hexadecimal (1 to F)</li>
+            </ul>
+            <b>REMEMBER: exadecimal numbers are : "1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F"</b>
+            <p>After each level, you will be prompted to move to the next level or restart the game.</p>
+        </div>
+
+        <div class="section">
+            <h2>Benefits of the Game</h2>
+            <p>This game helps to stimulate your memory by encouraging pattern recognition and sequential recall. It is a great exercise for your brain!</p>
+        </div>
+
+        <a href="index.html" class="button">Play the Game</a>
+    </div>
+</body>
+</html>
