@@ -16,7 +16,7 @@ A challenging memory-based card game built with HTML, CSS, and JavaScript. Test 
 
 ## Live Demo
 
-Play the game online: [Memory Card Game Live Demo]()
+Play the game online: [Memory Card Game Live Demo](https://aicha-code.github.io/Card_Game/)
 
 ## How to Play
 
